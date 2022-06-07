@@ -60,10 +60,6 @@ dataType4.unshift("Blues");
 
 
 
-
-
-
-
 // 4 MASALA   Javobi
 const numbers = [1, 2, 3, 4, 5, 6]
 
