@@ -1,3 +1,4 @@
+/* LOGO and BUTTONS */
 body{
     background-color: #FFD845;
     margin: 0;
@@ -18,6 +19,7 @@ body{
     margin-right: 140px;
 }
 
+/* PAKEMONS */
 .pokemons {
     display: flex;
     flex-wrap: wrap;
@@ -25,12 +27,14 @@ body{
     margin: 0;
     list-style: none;
     justify-content: center;
+    padding-top: 40px;
 }
 .pokemons__item {
     margin-right: 20px;
-    width: 400px;
+    width: 300px;
     margin-bottom: 40px;
-    border: 2px solid #000;
+    background-color: white;
+    border: 1px solid #000;
     text-align: center;
 
 }
@@ -38,6 +42,5 @@ body{
     margin-right: 0;
 }
 .pokemons__item-title {
-    margin: 0;
     font-size: 24px;
 }

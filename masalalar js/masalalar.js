@@ -59,7 +59,6 @@ let salaries = {
 	"Karima": 1800
 }
 
-
 function sumSalaries(key) {
     let sum
     // var list = []
@@ -72,9 +71,7 @@ function sumSalaries(key) {
 
 }
 
-console.log(sumSalaries(salaries)) // Natija: 8200 -> chiqishi kk
-
-
+console.log(sumSalaries(salaries))
 
 
 
