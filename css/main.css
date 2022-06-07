@@ -17,3 +17,27 @@ body{
 .button{
     margin-right: 140px;
 }
+
+.pokemons {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    justify-content: center;
+}
+.pokemons__item {
+    margin-right: 20px;
+    width: 400px;
+    margin-bottom: 40px;
+    border: 2px solid #000;
+    text-align: center;
+
+}
+.pokemons__item:last-child {
+    margin-right: 0;
+}
+.pokemons__item-title {
+    margin: 0;
+    font-size: 24px;
+}

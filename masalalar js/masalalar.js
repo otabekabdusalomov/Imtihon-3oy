@@ -53,7 +53,26 @@ dataType4.unshift("Blues");
 
 
 // 3 MASALA  Javobi
+let salaries = {
+	"Akmal": 1200,
+	"Salim": 5200,
+	"Karima": 1800
+}
 
+
+function sumSalaries(key) {
+    let sum
+    // var list = []
+    for(var[key , value] of Object.entries(key)){
+        console.log(value)
+        sum =+value
+
+    }
+    console.log(sum);
+
+}
+
+console.log(sumSalaries(salaries)) // Natija: 8200 -> chiqishi kk
 
 
 
