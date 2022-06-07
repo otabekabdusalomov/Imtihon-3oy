@@ -1,0 +1,19 @@
+body{
+    background-color: #FFD845;
+    margin: 0;
+}
+
+.list{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    margin-left: 140px;
+}
+.list-item{
+    margin-left: 40px;
+    width: 200px;
+    
+}
+.button{
+    margin-right: 140px;
+}
