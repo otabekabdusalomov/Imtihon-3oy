@@ -64,15 +64,6 @@ dataType4.unshift("Blues");
 
 
 
-
-// function monthDiff(d1, d2) {
-//     var months;
-//     months = (d2. getFullYear() - d1. getFullYear()) * 12;
-//     months -= d1. getMonth();
-//     months += d2. getMonth();
-//     return months <= 0 ? 0 : months;
-// }
-
 // 3 MASALA
 let salaries = {
     "Akmal": 1200,
@@ -88,24 +79,10 @@ function sumSalaries(key) {
         sum =+value
         
     }
-    // console.log(sum);
     
 }
 // console.log(sumSalaries(salaries))
 
-
-import { ref, computed } from 'vue';
-import { dinero, allocate } from 'dinero.js';
-import { USD } from '@dinero.js/currencies';
-
-export default {
-  setup() {
-    const price = ref(dinero({ amount: 500, currency: USD }));
-    const priceWithTax = computed(() => allocate(price.value, [20, 80])[0]);
-
-    return { price, priceWithTax };
-  },
-};
 
 
 
@@ -129,6 +106,24 @@ for(let number of numbers) {
 
 
 // 5 MASALA 
+const testArray = [1, 2, 4, 5, 6, 7, 8, 10, 19];    
+function missingNos(and, add) {
+    let missingNumber = [];
+    let count = add;
+    for (let i = 1; i< and[and.length-1]; i++){
+      if (and.indexOf(i) === -1) {
+        missingNumber.push(i);
+        count--;
+      };
+      if (count === 0){
+        break;
+      }
+    };
+    return missingNumber;
+  }
+
+  // console.log(missingNos(testArray));
+
 
 
 

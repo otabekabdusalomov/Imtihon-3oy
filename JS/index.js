@@ -13,19 +13,19 @@ for (i = 0; i < pokemons.length; i++) {
   pokemonTitle.className = "pokemons__item-title";
   pokemonTitle.textContent = currentPokemons.name;
   const pokemonNumber = document.createElement("p");
-
   const pokemonImg = document.createElement("img");
   pokemonImg.src = currentPokemons.img;
   const pokemonType = document.createElement("p");
   pokemonType.textContent = currentPokemons.type;
 
   //APPEND
+  pokemonItem.append(pokemonImg);
   pokemonItem.append(pokemonNumber);
   pokemonItem.append(pokemonTitle);
-  pokemonItem.append(pokemonImg);
+ 
   pokemonItem.append(pokemonType);
   firstPokemon.append(pokemonItem);
-  pokemonItem.append(currentPokemons);
+  // pokemonItem.append(currentPokemons);
 
 
 
