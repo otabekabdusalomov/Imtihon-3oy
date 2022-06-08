@@ -29,7 +29,7 @@ body{
     justify-content: center;
     padding-top: 40px;
 }
-.pokemons__item {
+.pokemons-item {
     margin-right: 20px;
     width: 300px;
     margin-bottom: 40px;
@@ -38,9 +38,9 @@ body{
     text-align: center;
 
 }
-.pokemons__item:last-child {
+.pokemons-item:last-child {
     margin-right: 0;
 }
-.pokemons__item-title {
+.pokemons-item {
     font-size: 24px;
 }
