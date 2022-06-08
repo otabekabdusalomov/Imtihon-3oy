@@ -1,4 +1,4 @@
-// 2 MASALANING 5 ta metodi  Javobi
+// 2 MASALANING 5 ta metodi
 // 1) metod
 const dataType = ["Jazz", "Blues"];              //qiymatlari bo'lgan array
 // console.log(dataType);
@@ -26,20 +26,20 @@ dataType4.unshift("Blues");
 
 
 
-// 1 MASALA   Javobi
-       // 1chi yechilish usuli
+// 1 MASALA
+// 1chi yechilish usuli
 // const name = prompt("Isminggizni kiriting");
 // const numberOne = Number(prompt("Dastlabki qiymatni kiriting"));
 // const numberTwo = Number(prompt("Keyingi qiymatni kiriting"));
 
 // console.log(numberOne + numberTwo);
 
-      // 2chi yechilish usuli
+// 2chi yechilish usuli
 //  const calcMoneys = function(money) {
-//      return 0 + money
+//      return 1 + money
 //  }
 
-//  const moneyss = prompt(calcMoneys)
+//  const moneyss = prompt[12, 20, 30, 40]
 //  const calcResult = function(qiymatlar) {
 //      let thing = []
 
@@ -51,12 +51,33 @@ dataType4.unshift("Blues");
 //  }
 //  console.log(calcResult(moneyss));
 
+// const calcAge = function(birthYear) {
+//     return 2022 - birtYear
+// }
 
-// 3 MASALA  Javobi
+// const years = [20, 12, 25]
+// const birthYear = function(yillar) {
+//     arguments.push(calcAge(yil))
+// }
+
+// return ages
+
+
+
+
+// function monthDiff(d1, d2) {
+//     var months;
+//     months = (d2. getFullYear() - d1. getFullYear()) * 12;
+//     months -= d1. getMonth();
+//     months += d2. getMonth();
+//     return months <= 0 ? 0 : months;
+// }
+
+// 3 MASALA
 let salaries = {
-	"Akmal": 1200,
-	"Salim": 5200,
-	"Karima": 1800
+    "Akmal": 1200,
+    "Salim": 5200,
+    "Karima": 1800
 }
 
 function sumSalaries(key) {
@@ -65,35 +86,49 @@ function sumSalaries(key) {
     for(var[key , value] of Object.entries(key)){
         console.log(value)
         sum =+value
-
+        
     }
-    console.log(sum);
-
+    // console.log(sum);
+    
 }
-
-console.log(sumSalaries(salaries))
-
+// console.log(sumSalaries(salaries))
 
 
+import { ref, computed } from 'vue';
+import { dinero, allocate } from 'dinero.js';
+import { USD } from '@dinero.js/currencies';
 
-// 4 MASALA   Javobi
-const numbers = [1, 2, 3, 4, 5, 6]
+export default {
+  setup() {
+    const price = ref(dinero({ amount: 500, currency: USD }));
+    const priceWithTax = computed(() => allocate(price.value, [20, 80])[0]);
+
+    return { price, priceWithTax };
+  },
+};
+
+
+
+// 4 MASALA
+const numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 
 const positiveNumbers = []
 const negativeNumbers = []
 
 for(let number of numbers) {
-  if(number % 2 === 0  ) {
-      positiveNumbers.push(number)
-  } else {
-      negativeNumbers.push(number)
-  }
+    if(number % 2 === 0  ) {
+        positiveNumbers.push(number)
+    } else {
+        negativeNumbers.push(number)
+    }
 }
 // console.log(positiveNumbers);
 // console.log(negativeNumbers);
 
 
 
+
+// 5 MASALA 
 
 
 
