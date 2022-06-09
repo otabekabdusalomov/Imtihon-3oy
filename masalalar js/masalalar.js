@@ -116,26 +116,5 @@ for(let number of numbers) {
 
 
 
-// 5 MASALA 
-// const testArray = [1, 2, 4, 5, 6, 7, 8, 10, 19];    
-// function missingNos(and, add) {
-//     let missingNumber = [];
-//     let count = add;
-//     for (let i = 1; i< and[and.length-1]; i++){
-//       if (and.indexOf(i) === -1) {
-//         missingNumber.push(i);
-//         count--;
-//       };
-//       if (count === 0){
-//         break;
-//       }
-//     };
-//     return missingNumber;
-//   }
-
-  // console.log(missingNos(testArray));
-
-
-
 
 
