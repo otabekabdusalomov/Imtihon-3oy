@@ -61,6 +61,17 @@ dataType4.unshift("Blues");
 // }
 
 // return ages
+const number1 = Number(prompt("Raqamni kiriting?"));
+ const number2 = Number(prompt("Raqamni kiriting?"));
+ const number3 = Number(prompt("Raqamni kiriting?"));
+ const number4 = Number(prompt("Raqamni kiriting?"));
+
+ const totalNumber = [number1,number2,number3,number4];
+ console.log([totalNumber]);
+ function sumInput(){
+     return [number1+number2+number3+number4]
+ }
+//  console.log([`Umumiy sonlar yig'indisi:${sumInput()} ga teng`])
 
 
 
